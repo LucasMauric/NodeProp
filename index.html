@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devic-width, initial-scale=1">
+    <title>Site Responsivo</title>
+    <meta name="keywords" content="Agencia digital,Marketing,sites">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Agencia especializada em marketing digital,criaçao de sites,aplicativos mobile">
+    <meta name="author" content="Joao Lucas">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body>
+    <!-- Cabeçalho,cara -->
+    <header class="cabecalho atr">
+      <a href="index.html"><h1 class="logo">Site Responsivo</h1></a>
+      <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+      <nav class="menu">
+        <a class="btn-close"><i class="fa fa-times"></i></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cliente</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+
+      </nav>
+    </header>
+    <!-- Banner dahora,mano-->
+    <div class="banner">
+      <div class="title">
+        <h2>OUSE INOVAR!</h2>
+        <h3>Criamos experiencias e estabelecemos açoes estrategicas que conectao marcas e consumidores</h3>
+
+      </div>
+      <div class="botoes">
+        <button class="btn-Cadastrar">Cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+        <button class="btn-Sobre">Sobre<i class="fa fa-question-circle"></i></button>
+
+
+      </div>
+
+    </div>
+    <!-- Conteudo principal né -->
+    <main class="servicos atr">
+      <article class="servico">
+        <a href="#"><img src="img/criacoes.jpg"></img></a>
+        <div class="inner">
+          <a href="#">Capanha Publicitaria</a>
+          <h4>Impressos,VTs e jingles</h4>
+          <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais.
+           Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio  e
+          muito mais pela sua empresa no mais alto padrão de qualidade. </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="img/md.jpg"></img></a>
+        <div class="inner">
+          <a href="#">Marketing Digital</a>
+          <h4>Administração de Redes Sociais</h4>
+          <p>Como agência de publicidade aplicamos estratégias nos meios
+            digitais para que a seu negócio seja visto por milhões de usuários.
+            O Brasil é o 5° país mais conectado do mundo. Por este motivo, o seu
+            negócio não pode ficar fora do do mercado digital </p>
+        </div>
+
+      </article>
+      <article class="servico">
+        <a href="#"><img src="img/cs.jpg"></img></a>
+        <div class="inner">
+          <a href="#">Criação de Sites</a>
+          <h4>Sites Administráveis</h4>
+          <p>Agora você pode administrar seu site quando e como quiser.
+           E melhor ainda pois você pode pagar por este serviço, pois desenvolvemos de
+           forma. Seu site atualizado, com seus últimos
+           produtos, integração com redes sociais, agora é possível. </p>
+        </div>
+      </article>
+
+
+    </main>
+    <!-- Newsletter -->
+    <section class="Newsletter">
+      <h2>Inscreva-se agora!</h2>
+      <h3>Receba novidades,dicas e muito mais</h3>
+      <form class="" action="index.html" method="post">
+        <input type="email" name="" value="" placeholder="Seu email">
+        <button type="button" name="button">Cadastrar</button>
+
+      </form>
+
+    </section>
+    <!-- Rodapé -->
+    <footer class="rodape">
+      <div class="social-icon">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+      </div>
+      <p class="copyright">
+        Copyright &copy; NodeProp 2016 - Todos o direitos reversados
+      </p>
+
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+      $(".btn-menu").click(function(){
+          $(".menu").show();
+      });
+      $(".btn-close").click(function(){
+          $(".menu").hide();
+      });
+
+
+
+    </script>
+
+  </body>
+</html>
